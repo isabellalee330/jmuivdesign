@@ -1,0 +1,79 @@
+
+.bg-primary {background-color: peru !important;}/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+/* Change header colors */
+.table thead th {
+    background-color: #004750 !important; 
+    color: white !important; 
+    text-align: center; 
+}
+
+.hero-header h1 {
+  color:  peru; 
+}
+
+.hero-header p {
+  color: #333; 
+}
+
+.hero-header {
+  padding-top: 4rem; 
+}
+
+
+
+.custom-learn-btn {
+    background-color: peru !important;   
+    color: white;
+}
+
+.custom-learn-btn:hover {
+    background-color: #cc5200 !important;   
+    border-color: white;
+}
+
+.custom-navbar {
+    background-color: #004750!important; 
+}
+.navbar-brand {
+  color: white !important; 
+  font-weight: bold;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-nav .nav-link {
+  color: white; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: peru; 
+}
+
+.custom-navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.btn-custom {
+    background-color: peru !important;
+    border-color: peru; 
+}
+
+.btn-custom:hover {
+    background-color: #cc5200 !important; 
+    border-color: white; 
+}
+
+.custom-contact-title {
+    color: #004750 !important; /* Choose your preferred color for 'Contact Us' */
+}
+
+.custom-contact-text {
+    color: #333 !important; /* Choose your preferred color for 'We would LOVE to get to know you' */
+}
+
+
+footer {
+    background-color: #004750 !important;
+}
