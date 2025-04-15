@@ -262,7 +262,6 @@
                 <i class="fab fa-instagram fa-2x"></i>
             </a>
         </div>
-    
     </div>
 </footer>
 
@@ -279,17 +278,16 @@
         <!-- END LOADING JAVASCRIPT -->
 
         <script>
-  // JavaScript to handle image click and modal display
-  document.querySelectorAll('.gallery-item').forEach(item => {
-    item.addEventListener('click', event => {
-      // Get the large image URL from the data-bs-img attribute
-      const largeImageUrl = event.target.getAttribute('data-bs-img');
-      
-      // Set the src of the modal image to the large image URL
-      document.getElementById('modal-image').src = largeImageUrl;
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      item.addEventListener('click', event => {
+        const largeImageUrl = event.target.getAttribute('data-bs-img');
+        document.getElementById('modal-image').src = largeImageUrl;
+      });
     });
   });
 </script>
+
 
     </body>
 </html>

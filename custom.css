@@ -89,5 +89,37 @@ body, p {
     color: #333 !important; 
 }
 
+.bg-about {
+  background-color: linen; 
+}
+
+.bg-get-involved {
+  background-color: white; 
+}
+
+.btn-custom {
+  background-color: peru; 
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: white; 
+}
+
+.bg-ministry {
+  background-color: linen; 
+}
+
+.bg-nso {
+  background-color: white; 
+}
+
+.bg-contact {
+  background-color: linen; 
+}
+
+.custom-footer {
+    background-color: #004750;
+}
 
 
