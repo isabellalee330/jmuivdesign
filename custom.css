@@ -19,6 +19,12 @@
   padding-top: 4rem; 
 }
 
+#about h2 {
+  text-align: center;
+}
+
+
+
 
 
 .custom-learn-btn {
@@ -54,6 +60,11 @@
   padding-bottom: 1rem;
 }
 
+.nav-link.active {
+  color: peru !important; 
+  font-weight: bold;
+}
+
 
 .btn-custom {
     background-color: peru !important;
@@ -65,15 +76,18 @@
     border-color: white; 
 }
 
+
+body, p {
+  color: #333; 
+}
+
 .custom-contact-title {
-    color: #004750 !important; /* Choose your preferred color for 'Contact Us' */
+    color: #004750 !important; 
 }
 
 .custom-contact-text {
-    color: #333 !important; /* Choose your preferred color for 'We would LOVE to get to know you' */
+    color: #333 !important; 
 }
 
 
-footer {
-    background-color: #004750 !important;
-}
+
