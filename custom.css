@@ -23,9 +23,13 @@
   text-align: center;
 }
 
-
-
-
+h1, h2, h3, .section-title {
+  font-family: 'Protest Strike', sans-serif;
+}
+.header-text {
+  font-family: 'Protest Strike', sans-serif;
+  font-size: 3rem; 
+}
 
 .custom-learn-btn {
     background-color: peru !important;   
@@ -74,6 +78,11 @@
 .btn-custom:hover {
     background-color: #cc5200 !important; 
     border-color: white; 
+}
+
+.small-carousel {
+  max-width: 425px;  
+  margin: 0 auto;         
 }
 
 
